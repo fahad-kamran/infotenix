@@ -1,0 +1,193 @@
+/* ================================ Global Styles for Infotenix ================================ */
+
+/* Regular (Normal) */
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold (700) */
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica/Helvetica-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ================================ Global Variables & Styles ================================ */
+:root {
+    /* **********COLORS********** */
+    --black-color: #000000;
+    --dark-color: #292929;
+    --white-color: #ffffff;
+    --light-color: #646464;
+    --primary-color: #FDB940;
+    --gradient-primary-color: #C3830D;
+    --secondary-color: #0D634C;
+    /* **********COLORS********** */
+
+    /* **********FONTS********** */
+    --font-primary: 'Helvetica', sans-serif;
+    /* **********FONTS********** */
+
+    --transition-anim: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark-color);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    /* Default Normal */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    margin-bottom: 0;
+    /* Headings Bold */
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+.fs-xxl {
+    font-size: 3rem !important;
+}
+
+.transition__anim {
+    transition: var(--transition-anim)
+}
+
+/* text color classes */
+.text__black {
+    color: var(--black-color)
+}
+
+.text__dark {
+    color: var(--dark-color)
+}
+
+.text__white {
+    color: var(--white-color)
+}
+
+.text__light {
+    color: var(--light-color)
+}
+
+.text__primary {
+    color: var(--primary-color);
+}
+
+.text__secondary {
+    color: var(--secondary-color);
+}
+
+/* text color classes */
+
+/* bg color */
+.bg__primary {
+    background-color: var(--primary-color);
+}
+
+.bg__white {
+    background-color: var(--white-color);
+}
+
+/* bg color */
+
+/* hover color */
+.hover__text__white:hover>* {
+    color: var(--white-color) !important;
+}
+
+.hover__secondary:hover {
+    color: var(--secondary-color);
+}
+
+/* hover color */
+
+/* Horizontal gradient (left to right) */
+.bg-gradient-horizontal {
+    background: linear-gradient(to right, var(--secondary-color), var(--gradient-primary-color));
+}
+
+/* Vertical gradient (top to bottom) */
+.bg-gradient-vertical {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--gradient-primary-color));
+}
+
+/* hover Horizontal gradient (left to right) */
+.hover-bg-gradient-horizontal:hover {
+    background: linear-gradient(to right, var(--secondary-color), var(--gradient-primary-color));
+}
+
+/* Vertical gradient (top to bottom) */
+.hover-bg-gradient-vertical:hover {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--gradient-primary-color));
+}
+
+/* btn */
+.btn__ {
+    padding: 6px 28px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+
+.btn__primary {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+}
+
+.btn__secondary {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+/* btn */
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.gradient-bg-curve {
+    background-image: url('../images/gradient-curve-bg.png');
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: left center;
+}
+
+.partners__img {
+    max-width: 120px;
+    width: auto;
+    max-height: 34px;
+    height: auto;
+}
