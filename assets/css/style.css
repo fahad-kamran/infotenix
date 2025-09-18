@@ -46,7 +46,7 @@
 body {
     color: var(--dark-color);
     font-family: var(--font-primary);
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
     font-weight: 400;
     /* Default Normal */
@@ -119,6 +119,10 @@ b {
     background-color: var(--white-color);
 }
 
+.bg__light {
+    background-color: var(--light-color);
+}
+
 /* bg color */
 
 /* hover color */
@@ -166,6 +170,17 @@ b {
     color: var(--black-color);
 }
 
+.btn__outlined__primary {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.btn__outlined__primary:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
 .btn__secondary {
     background-color: var(--secondary-color);
     color: var(--white-color);
@@ -178,10 +193,17 @@ b {
     border-color: var(--primary-color);
 }
 
-.gradient-bg-curve {
+.gradient-bg-curve-3 {
     background-image: url('../images/gradient-curve-bg.png');
     background-repeat: no-repeat;
     background-size: 50% auto;
+    background-position: left center;
+}
+
+.gradient-bg-curve-2 {
+    background-image: url('../images/it-asset-management/shape.png');
+    background-repeat: no-repeat;
+    background-size: 34% auto;
     background-position: left center;
 }
 
@@ -191,3 +213,70 @@ b {
     max-height: 34px;
     height: auto;
 }
+
+
+::placeholder {
+    color: #BEBEBF !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #BEBEBF !important;
+}
+
+#footer .small {
+    font-size: 13px !important;
+}
+
+/* accordion */
+.accordion-item {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    border-radius: 0;
+    border: none;
+    background-color: #f4f4f4;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--secondary-color);
+    background-color: #f4f4f4;
+
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Remove bootstrap's default chevron */
+.accordion-button::after {
+    background-image: none !important;
+    content: "\002B";
+    /* + */
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1rem;
+    /* vertical centering fix */
+    vertical-align: middle;
+    /* extra centering */
+    margin-top: 2px;
+    /* optional tweak */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* When accordion is open */
+.accordion-button:not(.collapsed)::after {
+    content: "\2212";
+    /* − */
+    transform: rotate(0);
+}
+
+/* accordion */
