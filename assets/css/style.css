@@ -134,6 +134,10 @@ b {
     color: var(--secondary-color);
 }
 
+.hover__bg__secondary:hover {
+    background-color: var(--secondary-color);
+}
+
 /* hover color */
 
 /* Horizontal gradient (left to right) */
@@ -280,3 +284,9 @@ b {
 }
 
 /* accordion */
+
+.hover__light__bg__card:hover {
+    background-color: #daf6ff;
+    color: #3344a6;
+    transition: transform 0.2s ease-in-out;
+}
