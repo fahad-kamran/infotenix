@@ -26,7 +26,7 @@
     --white-color: #ffffff;
     --light-color: #646464;
     --primary-color: #FDB940;
-    --gradient-primary-color: #C3830D;
+    --gradient-primary-color: #feb736;
     --secondary-color: #0D634C;
     /* **********COLORS********** */
 
@@ -143,6 +143,9 @@ b {
 /* Horizontal gradient (left to right) */
 .bg-gradient-horizontal {
     background: linear-gradient(to right, var(--secondary-color), var(--gradient-primary-color));
+}
+.bg-gradient-horizontal__opposite{
+    background: linear-gradient(to right, var(--gradient-primary-color), var(--secondary-color));
 }
 
 /* Vertical gradient (top to bottom) */
@@ -293,4 +296,12 @@ b {
 
 .bg____light {
     background-color: #f0f0f0;
+}
+
+/* footer text light color */
+.footer__light__text {
+    color: #848484;
+}
+.mb-2__5{
+    margin-bottom: 0.6rem;
 }
