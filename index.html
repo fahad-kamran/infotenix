@@ -178,14 +178,13 @@
             </div>
         </section>
         <!-- count -->
-        <section class="py-5 bg__primary">
+        <section id="stats-section" class="py-5 bg__primary">
             <div class="container-xl">
                 <div class="row row-cols-1 row-cols-md-3 g-5">
                     <div class="col" data-aos="flip-left">
                         <div class="bg__white h-100 p-5">
                             <h1 class="text__secondary fs-xxl">
-                                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="100"
-                                    data-purecounter-duration="2" data-purecounter-decimals="0">0</span>+
+                                <span id="counter-certified">0</span>+
                             </h1>
                             <p class="mb-0 text__black">Certified IT professionals on hand to assist you</p>
                         </div>
@@ -193,9 +192,7 @@
                     <div class="col" data-aos="flip-left">
                         <div class="bg__white h-100 p-5">
                             <h1 class="text__secondary fs-xxl">
-                                <!-- 15,000 -->
-                                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="15000"
-                                    data-purecounter-duration="3" data-purecounter-decimals="0">0</span>+
+                                <span id="counter-users">0</span>+
                             </h1>
                             <p class="mb-0 text__black">Users supported across our network</p>
                         </div>
@@ -203,10 +200,7 @@
                     <div class="col" data-aos="flip-left">
                         <div class="bg__white h-100 p-5">
                             <h1 class="text__secondary fs-xxl">
-                                <!-- 99.5 -->
-                                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="99"
-                                    data-purecounter-duration="2">0</span>
-                                <span>%</span>
+                                <span id="counter-percent">0</span>%
                             </h1>
                             <p class="mb-0 text__black">High customer satisfaction across all our services</p>
                         </div>
@@ -368,8 +362,6 @@
     <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- pure counter -->
-    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <!-- custom js -->
     <script src="./assets/js/app.js"></script>
 </body>
