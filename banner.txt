@@ -57,3 +57,13 @@ Title Text: Infotenix Email Spam Filtering – Secure and Reliable Email Protect
 File Name: hero-google-to-microsoft365.jpg
 Alt Text: Google Workspace to Microsoft 365 Migration – Smooth and Simple Transition by Infotenix
 Title Text: Infotenix Google to Microsoft 365 Migration – Seamless and Hassle-Free IT Transition
+
+13) AI & Automation
+File Name: hero-ai-and-automation.jpg
+Alt Text: AI and Automation Services – Streamline Business Processes with Infotenix
+Title Text: Infotenix AI & Automation Solutions – Intelligent Tools to Automate Your Business
+
+14) Fully Managed IT Outsourcing
+File Name: hero-managed-it-outsourcing.jpg
+Alt Text: Fully Managed IT Outsourcing Services – Complete IT Management by Infotenix
+Title Text: Infotenix Managed IT Outsourcing – End-to-End IT Support and Operations

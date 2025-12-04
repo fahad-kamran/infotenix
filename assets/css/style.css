@@ -318,8 +318,21 @@ b {
     align-items: center;
 }
 
-.border__primary{
+.border__primary {
     border: 1px solid var(--primary-color);
+}
+
+.expertise-icon {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    object-fit: contain;
+    display: block;
+}
+
+.expertise-icon.max__icon {
+    max-width: 80px;
 }
 
 /* footer text light color */
