@@ -1,0 +1,59 @@
+1) Home
+File Name: hero-technology-growth.jpg
+Alt Text: Technology for Growth – IT Management and Security by Infotenix
+Title Text: Infotenix IT Solutions – Technology for Growth and Success by Design
+
+2) It asset management
+File Name: hero-it-asset-management.jpg
+Alt Text: IT Asset Management Solutions – Track and Optimize Your IT Assets
+Title Text: Infotenix IT Asset Management Services – Efficient IT Asset Tracking and Optimization
+
+3) Managed IT Support
+File Name: hero-managed-it-support.jpg
+Alt Text: Managed IT Support Services – Reliable IT Management by Infotenix
+Title Text: Infotenix Managed IT Support – Efficient and Secure IT Services
+
+4) Network Management
+File Name: hero-network-management.jpg
+Alt Text: Network Management Services – Secure and Optimized IT Networks
+Title Text: Infotenix Network Management – Reliable and Efficient IT Network Solutions
+
+5) On-Site IT Support
+File Name: hero-onsite-it-support.jpg
+Alt Text: On-Site IT Support Services – Professional IT Assistance at Your Location
+Title Text: Infotenix On-Site IT Support – Fast and Reliable IT Services
+
+6) Server Support
+File Name: hero-server-support.jpg
+Alt Text: Server Support Services – Reliable Server Maintenance and Management
+Title Text: Infotenix Server Support – Efficient and Secure Server Solutions
+
+7) Cloud Managed Services
+File Name: hero-cloud-managed-services.jpg
+Alt Text: Cloud Managed Services – Scalable and Secure Cloud Solutions
+Title Text: Infotenix Cloud Managed Services – Reliable Cloud IT Management
+
+8) Custom Software Development
+File Name: hero-custom-software-development.jpg
+Alt Text: Custom Software Development – Tailored Software Solutions by Infotenix
+Title Text: Infotenix Custom Software Development – Build Software That Fits Your Business
+
+9) Desktop-as-a-Service
+File Name: hero-desktop-as-a-service.jpg
+Alt Text: Desktop as a Service (DaaS) – Cloud-Based Virtual Desktops by Infotenix
+Title Text: Infotenix Desktop as a Service – Secure and Scalable Virtual Desktop Solutions
+
+10) Digital Transformation
+File Name: hero-digital-transformation.jpg
+Alt Text: Digital Transformation Services – Modernize Your Business with Infotenix
+Title Text: Infotenix Digital Transformation – Drive Growth Through Innovative IT Solutions
+
+11) Email Spam Filtering
+File Name: hero-email-spam-filtering.jpg
+Alt Text: Email Spam Filtering Services – Protect Your Inbox with Infotenix
+Title Text: Infotenix Email Spam Filtering – Secure and Reliable Email Protection
+
+12) Move from Google to Microsoft 365. Smooth. Simple.
+File Name: hero-google-to-microsoft365.jpg
+Alt Text: Google Workspace to Microsoft 365 Migration – Smooth and Simple Transition by Infotenix
+Title Text: Infotenix Google to Microsoft 365 Migration – Seamless and Hassle-Free IT Transition
