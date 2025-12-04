@@ -191,6 +191,17 @@ b {
     color: var(--dark-color);
 }
 
+.btn__outlined__secondary {
+    border: 1px solid var(--secondary-color);
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+}
+
+.btn__outlined__secondary:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
 .btn__secondary {
     background-color: var(--secondary-color);
     color: var(--white-color);
@@ -305,6 +316,10 @@ b {
     min-height: calc(100svh - var(--header-height));
     display: flex;
     align-items: center;
+}
+
+.border__primary{
+    border: 1px solid var(--primary-color);
 }
 
 /* footer text light color */
